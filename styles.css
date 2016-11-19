@@ -1,0 +1,35 @@
+html,
+body
+{
+    margin: 0;
+    height: 100%;
+    background: #aaff88;
+}
+
+.micro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8%;
+    margin-left: -8%;
+
+}
+
+.micro img
+{
+    display: inline-block;
+    width: 25%;
+    max-width: 512px;
+    border-radius: 50%;
+    border: 6px solid rgba(0,0,0,0);
+    padding: 4%;
+    transition: 0.3s all ease-in;
+}
+
+.micro img:hover
+{
+    border: 6px solid #FFF;
+    cursor: pointer;
+
+}
